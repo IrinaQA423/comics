@@ -1,8 +1,8 @@
-import requests
 import os
 import random
 import time
 
+import requests
 from dotenv import load_dotenv
 from telegram import Bot, InputFile
 from telegram.error import BadRequest
