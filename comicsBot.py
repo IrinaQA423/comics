@@ -7,6 +7,8 @@ from dotenv import load_dotenv
 from telegram import Bot, InputFile
 from telegram.error import BadRequest
 
+SLEEP_TIME = 14400
+
 
 def get_max_comic_num():
 
@@ -85,7 +87,7 @@ def main():
                 os.remove(image_path)
             if alt_path and os.path.exists(alt_path):
                 os.remove(alt_path)
-        time.sleep(14400)
+        time.sleep(SLEEP_TIME)
 
 
 if __name__ == "__main__":
