@@ -39,10 +39,10 @@ pip install -r requirements.txt
 
 ### Как запустить  программу?
 
-Запустите файл `comicsBot.py`
+Запустите файл `comics_bot.py`
 
 ```sh
-python comicsBot.py
+python comics_bot.py
 ```
 
 ### Цель проекта
