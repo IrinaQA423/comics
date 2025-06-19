@@ -33,9 +33,9 @@ pip install -r requirements.txt
 
 #### Где  хранить чувствительные данные?
 
-В корне проекта создайте файл `.env` и поместите в него `TG_TOKEN_COMICS_BOT` и `TG_CHANNEL_ID`. 
+В корне проекта создайте файл `.env` и поместите в него `COMICS_BOT_TG_TOKEN` и `TG_CHANNEL_ID`. 
 
-![](https://github.com/IrinaQA423/gists1/blob/main/Screenshot26.png?raw=true)
+![](https://github.com/IrinaQA423/gists1/blob/main/Screenshot_27.png?raw=true)
 
 ### Как запустить  программу?
 

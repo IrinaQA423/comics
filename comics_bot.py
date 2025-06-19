@@ -53,10 +53,10 @@ def publish_image_and_text(bot, tg_channel_id, image_path, alt_text):
 
 def main():
     load_dotenv() 
-    tg_token_comics_bot = os.environ['TG_TOKEN_COMICS_BOT']
+    comics_bot_tg_token = os.environ['COMICS_BOT_TG_TOKEN']
     tg_channel_id = os.environ['TG_CHANNEL_ID']
 
-    bot = Bot(token=tg_token_comics_bot)
+    bot = Bot(token=comics_bot_tg_token)
     image_folder = Path('images')
 
     image_folder.mkdir(exist_ok=True)
