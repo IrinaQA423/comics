@@ -52,7 +52,7 @@ def publish_image_and_text(bot, tg_channel_id, image_path, alt_text):
 
 
 def main():
-    load_dotenv()  # Загружаем переменные окружения
+    load_dotenv() 
     tg_token_comics_bot = os.getenv('TG_TOKEN_COMICS_BOT')
     tg_channel_id = os.getenv('TG_CHANNEL_ID')
 
